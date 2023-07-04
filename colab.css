@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url('colab.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: white;
+}
+
+.colab {
+    background-color: white; 
+    max-width: 750px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%) ;
+    text-align: left;
+    padding: 100px 100px;
+   
+}
+
+.colab h1 {
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.colab p {
+    font-family: sans-serif;
+    color: rgba(110, 108, 108, 0.692);
+    font-size: 14px;
+    font-weight: 600;
+    word-spacing: 1px;
+    letter-spacing: .1px;
+    
+}
+
+div .two a{
+    text-decoration: none;
+    font-size: 25px;
+    background: rgb(255, 255, 255);
+    color: rgb(46, 146, 233);
+    border:1px solid grey ;
+    padding: 5px 5px;
+    font-size:20px;
+    transition: 0.4s;
+}
+
+
+div .two a:hover{
+    background:rgb(46, 146, 233);
+    color: white;
+}
